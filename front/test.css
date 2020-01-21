@@ -14,7 +14,7 @@
     margin-left: 20px;
     border:2px solid grey;
     width:300px;
-    height:300px;
+    height:350px;
     margin:20px;
     box-shadow: 5px 5px 10px teal;
 }
@@ -28,14 +28,32 @@
 }
 
 
-@media(max-width:700px)
-{
-  #show{
-  
-    width:700px;
-    position: relative;
-    flex-wrap: wrap;
-    border:2px solid black
+@media screen and (max-width: 1492px) {
+    #show {
+      width: 1200;
+    }
   }
-  
-}
+
+  @media screen and (max-width: 992px) {
+    #show {
+      width: 800;
+      margin: 100px;
+    }
+    #each{
+        height:500px;
+        width:600px
+    }
+    #img1{
+   
+        width:600px;
+        
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+   #each{
+       width:100%
+   }
+  }
+
+
